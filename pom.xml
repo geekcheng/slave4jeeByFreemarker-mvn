@@ -7,6 +7,7 @@
     <groupId>com.billy.jee</groupId>
     <artifactId>script-parser</artifactId>
     <packaging>pom</packaging>
+    <version>1.0.0-SNAPSHOT</version>
 
 
 
@@ -32,12 +33,18 @@
             <artifactId>freemarker</artifactId>
             <version>2.3.20</version>
         </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.35</version>
+        </dependency>
+
 
 
 
 
     </dependencies>
-
+<!--
     <build>
         <sourceDirectory>src/main/java</sourceDirectory>
         <plugins>
@@ -92,5 +99,6 @@
             </plugin>
         </plugins>
     </build>
+    -->
 
 </project>
