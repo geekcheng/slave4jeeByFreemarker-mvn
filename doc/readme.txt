@@ -1,4 +1,3 @@
-execute the method com.billy.scriptParser.ScriptParser#main() 
-to show ...
+to generate java & xml files by freemarker 
 
 2015-09-16
